@@ -9340,3 +9340,48 @@ h6 {
 /*h3{
   color: green;
 }*/
+
+
+#about-us .single-about-content:hover h5 a {
+    color:#f91b43;
+  }
+
+  #about-us .single-about-content .icon{
+    color: #f91b43;
+    width: 60px;
+    height: 60px;
+    size: 30px;
+    border:2px solid #f91b43;
+    border-radius: 50px;
+    text-align: center;
+    padding: 15px 0;
+    margin: auto;
+    margin-bottom: 20px;
+
+  }
+  #about-us .single-about-content:hover .icon{
+    background: #f91b43;
+    
+  }
+
+  #about-us .single-about-content a.more{
+    border-color:#f91b43;
+    border-style: solid;
+  }
+
+  #about-us .single-about-content {
+  text-align: center;
+  margin-top: 55px;
+  margin-bottom: 100px;
+}
+#about-us .single-about-content a.more {
+  width: 130px;
+  line-height: 45px;
+  color:#292929;
+  border-width: 1px;
+  margin-top:22px;
+}
+#about-us .single-about-content a.more:hover,
+#about-us .single-about-content:hover .icon {
+  color:#fff;
+}
